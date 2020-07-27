@@ -2,9 +2,7 @@
 # Text clasification to identify nature-related pandemic articles
 ########################################################################
 # load python libraries
-
 import pandas as pd
-
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
@@ -60,7 +58,6 @@ X_new = tfidf_vectorizer.transform(df_all['NLPtext'])
 
 # Check X_new
 print('X_new: ', X_new.shape[0])
-print('df_all:', df_all.shape[0])
 
 # Predict y_new using the established data
 y_new = nb_tfidf_classifier1.predict(X_new)
