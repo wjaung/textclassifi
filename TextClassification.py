@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 ########################################################################
 # Text clasification to identify nature-related pandemic articles
 ########################################################################
